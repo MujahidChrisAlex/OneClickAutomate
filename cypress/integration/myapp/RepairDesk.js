@@ -20,7 +20,7 @@ describe('Repair Desk Test Suite', function () {
       
     })
 
- /* Cypress.Cookies.defaults({
+  Cypress.Cookies.defaults({
     preserve: 'ucfy',
   })
 
@@ -38,7 +38,7 @@ describe('Repair Desk Test Suite', function () {
 
   })
 
-  it('Click on Checkout and then click CASH option', function () {
+ /* it('Click on Checkout and then click CASH option', function () {
     //cy.get('#Checkout').click()
     cy.reload()
     cy.get('#Checkout').click()
