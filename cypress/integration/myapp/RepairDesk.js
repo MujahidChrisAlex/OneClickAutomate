@@ -38,7 +38,7 @@ describe('Repair Desk Test Suite', function () {
 
   })
 
- /* it('Click on Checkout and then click CASH option', function () {
+  it('Click on Checkout and then click CASH option', function () {
     //cy.get('#Checkout').click()
     cy.reload()
     cy.get('#Checkout').click()
@@ -46,7 +46,7 @@ describe('Repair Desk Test Suite', function () {
 
   })
 
-  it('Perform Checkout process', function () {
+ /* it('Perform Checkout process', function () {
     cy.get('.suggested-amount > :nth-child(1)').click()
     cy.wait(5000)
     cy.reload()
